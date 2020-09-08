@@ -6,7 +6,6 @@ on:
   watch:
     types: started
   schedule:
-    - cron: schedule:
     - cron: 15 20 * * 1
 
 jobs:
